@@ -2,10 +2,169 @@
 <html lang="bg">
 <head>
   <meta charset="UTF-8">
-  <title>Шарена премяна</title>
+  <title>Шарена премяна – български носии в мини модел</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #fbe4df url("images/bg-ornament.png") top center repeat-y;
+      background-size: cover;
+      color: #3b1f1f;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 10px;
+      background: linear-gradient(90deg, #fbe4df, #f9c4c4);
+      border-bottom: 3px solid #b13535;
+    }
+
+    header img.logo {
+      height: 90px;
+      margin-right: 20px;
+    }
+
+    header .title-block h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+    }
+
+    header .title-block p {
+      margin: 4px 0 0;
+      font-size: 0.95rem;
+    }
+
+    .content {
+      max-width: 1100px;
+      margin: 20px auto 40px;
+      padding: 0 16px;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .intro p {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .regions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fffaf6;
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      border: 1px solid #f1c3c3;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      display: block;
+      margin-bottom: 12px;
+    }
+
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 1.2rem;
+      color: #b13535;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #5d2b2b;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85rem;
+      background: #f6d5d2;
+      border-top: 2px solid #b13535;
+    }
+  </style>
 </head>
 <body>
-  <h1>Сайтът работи!</h1>
-  <p>След малко ще добавим истинския дизайн ❤️</p>
+
+<header>
+  <!-- логото ти -->
+  <img src="images/logo-sharena-premyana.png" alt="Шарена премяна лого" class="logo">
+  <div class="title-block">
+    <h1>Шарена премяна</h1>
+    <p>Български носии – мини модели на кукли по региони</p>
+  </div>
+</header>
+
+<main class="content">
+  <section class="intro">
+    <h2>За проекта</h2>
+    <p>
+      „Шарена премяна“ събира ръчно изработени кукли, облечени в традиционни български носии.
+      Всяка кукла е вдъхновена от конкретен регион и разказва малка история за цветовете,
+      шевиците и обичаите на мястото.
+    </p>
+  </section>
+
+  <section class="regions-grid">
+    <!-- Примерна карта – сменяш снимките и текстовете по желание -->
+
+    <article class="card">
+      <img src="images/doll-rodopi.jpg" alt="Родопска носия">
+      <h2>Родопи</h2>
+      <h3>Родопска носия</h3>
+      <p>
+        Родопската носия се отличава с по-тъмни цветове и топли вълнени платове, подходящи за планинския климат.
+        Богатата шарка на престилката и декоративните елементи символизират плодородие и закрила.
+      </p>
+    </article>
+
+    <article class="card">
+      <img src="images/doll-pirin.jpg" alt="Пиринска носия">
+      <h2>Пирин</h2>
+      <h3>Пиринска носия</h3>
+      <p>
+        Пиринската носия впечатлява с ярки цветове и много детайли. Зеленото и червеното доминират,
+        а престилката с ресни придава движение и лекота при танц.
+      </p>
+    </article>
+
+    <article class="card">
+      <img src="images/doll-trakia.jpg" alt="Тракийска носия">
+      <h2>Тракия</h2>
+      <h3>Тракийска носия</h3>
+      <p>
+        Тракийската носия е богато украсена, с контраст между бялата риза и тъмния сукман.
+        Златните елементи и коланът подчертават тържествения характер на облеклото.
+      </p>
+    </article>
+
+    <!-- Добавяш още карти за Шоплук, Добруджа, Северняшка и т.н. -->
+
+  </section>
+</main>
+
+<footer>
+  © 2025 Шарена премяна – български носии в мини модел
+</footer>
+
 </body>
 </html>
